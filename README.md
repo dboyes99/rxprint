@@ -20,7 +20,7 @@ This package prints REXX source files with listing controls contained in REXX co
 /* RXPRINT:PageLen nnn*/ -      Sets page length to nn lines. A new title
                                 line is generated at the top of every page.
 
-/* RXPRINT:Line nn */ -         Set line lenght to nn. The default is 132
+/* RXPRINT:LineLen nn */ -      Set line lenght to nn. The default is 132
                                 chars.
 
 Printer controls are implemented with standard ASA/machine-specific listing 
