@@ -6,7 +6,7 @@ This package prints REXX source files with listing controls contained in REXX co
                                 in bold letters. A blank line is inserted
                                 following the title.
 
-/*RXPRIMNT:Eject */ -           Generate an immediate skip to channel 1 
+/*RXPRINT:Eject */ -           Generate an immediate skip to channel 1 
                                 (new page)
 
 /*RXPRINT:Bold */   -           Highlight following lines until a 
