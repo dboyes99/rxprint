@@ -27,7 +27,7 @@ Printer controls are implemented with standard ASA/machine-specific listing
 directives included in col 1 of the file. All output is shifted one column to the right to permit inserting the appropriate control characters.
 
 This utility produces a LISTING file as output and can be printed using the 
-PRINT fn ft fm ( CC command.
+CMS PRINT fn ft fm ( CC command.
 
 
 
