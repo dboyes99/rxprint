@@ -7,7 +7,7 @@ This package prints REXX source files with listing controls contained in REXX co
                                 following the title.
 
 /*RXPRINT:Eject */ -           Generate an immediate skip to channel 1 
-                                (new page)
+/*RXPRINT:PgBrk */             (new page)
 
 /*RXPRINT:Bold */   -           Highlight following lines until a 
                                 /* RXPRINT:Normal */ card is encountered.
@@ -17,7 +17,7 @@ This package prints REXX source files with listing controls contained in REXX co
 
 /* RXPRINT:Skip nn */ -         Insert nn blank lines at this location
 
-/* RXPRINT:PageLen nn*/ -       Sets page length to nn lines. A new title
+/* RXPRINT:PageLen nnn*/ -      Sets page length to nn lines. A new title
                                 line is generated at the top of every page.
 
 /* RXPRINT:Line nn */ -         Set line lenght to nn. The default is 132

@@ -1,0 +1,8 @@
+/*********************************************************************/ 
+/* RXPRINT EXEC       Prettyprint a REXX exec                        */ 
+/*********************************************************************/ 
+/* Purpose: Prettyprint a REXX exec using embedded REXX comments     */ 
+/* Input  : exec to be printed                                       */ 
+/* Output : <execname> LISTING                                       */ 
+/*                                                                   */ 
+/*********************************************************************/ 
